@@ -1,0 +1,71 @@
+/* Centraliza o conteúdo principal */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: calc(100vh - 80px); /* Ajuste para compensar a altura da barra superior */
+    /*background-color: #DFEDF5;*/
+    position: relative; /* Define o contexto para posicionamento do botão de voltar */
+}
+
+/* Estilo do ícone de voltar */
+.back-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Estilos para o cartão de formulário */
+.form-card {
+    background-color: #C1D3DF;
+    border-radius: 8px;
+    padding: 40px; /* Aumenta o padding para ampliar o bloco */
+    width: 400px; /* Aumenta a largura */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Estilo do título */
+.form-card h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* Estilos para os rótulos e campos de entrada */
+.form-card label {
+    display: block;
+    font-size: 16px;
+    color: #555;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.form-card input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #A8BDC8;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Estilo do botão de cadastro */
+.form-card button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6E8E9C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.form-card button:hover {
+    background-color: #5D7C8C;
+}

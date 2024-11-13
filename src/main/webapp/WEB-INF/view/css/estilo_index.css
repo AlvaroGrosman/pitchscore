@@ -1,0 +1,108 @@
+/* Reset básico */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+ background-image: url('../imagens/fundo.png');
+ font-family: Arial, sans-serif;
+ background-color: #F0F4FA;
+ color: #333;
+}
+
+/* Estilos do cabeçalho */
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #A8BDC8;
+    padding: 15px 20px;
+}
+
+.header-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.header-title h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.user-info {
+ display: flex;
+ align-items: center;
+}
+
+.user-image {
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+ margin-right: 10px;
+}
+
+.subtitle {
+ font-size: 14px;
+ color: #6F8E9E;
+ margin-top: 5px;
+}
+
+.settings-icon {
+ font-size: 20px;
+ cursor: pointer;
+}
+
+/* Estilos do conteúdo principal */
+.content {
+ display: flex;
+ justify-content: space-around;
+ padding: 40px 20px;
+}
+
+.card {
+    background-color: #C1D3DF;
+    border-radius: 8px;
+    padding: 30px; /* Aumenta o padding para expandir os cartões */
+    width: 300px; /* Aumenta a largura */
+    text-align: center;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-icon {
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ margin-bottom: 15px;
+}
+
+.card h2 {
+ font-size: 20px;
+ color: #333;
+ margin-bottom: 15px;
+}
+
+.card p {
+ font-size: 16px;
+ color: #555;
+ margin-bottom: 20px;
+}
+
+button {
+ padding: 12px 24px;
+ background-color: #6E8E9C;
+ color: #fff;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ font-size: 16px;
+}
+
+button:hover {
+ background-color: #5D7C8C;
+}

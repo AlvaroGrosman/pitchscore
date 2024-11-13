@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking de Pitches</title>
+    <link rel="stylesheet" href="./css/estilo_index.css"> <!-- Arquivo CSS principal para a barra superior -->
+    <link rel="stylesheet" href="./css/ranking.css"> <!-- Novo CSS para estilizar a tela de ranking -->
+</head>
+<body>
+    <!-- Barra superior -->
+    <header class="header">
+        <div class="user-info">
+            <img src="./imagens/index/foto_perfil.png" alt="Imagem do usuário" class="user-image">
+            <span>Olá, <strong>João Silva</strong></span>
+        </div>
+        <div class="header-title">
+            <h1>PitchScore</h1>
+        </div>
+        <div class="settings-icon">⚙️</div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main class="content">
+        <!-- Ícone de voltar ajustado para uma posição fora do perfil -->
+        <a href="index.html"><div class="back-icon">⬅️</div></a>
+
+        <!-- Cartão de ranking central -->
+        <section class="ranking-card">
+            <img src="./imagens/ranking/icon_ranking.png" alt="Ícone do Ranking" class="ranking-icon">
+            <h2>Ranking de Pitches</h2>
+
+            <!-- Container para os rankings -->
+            <div class="ranking-list">
+                <!-- Estrutura de exemplo para um grupo no ranking -->
+                <div class="ranking-item">
+                    <div class="project-info">
+                        <img src="./imagens/ranking/icon_projeto.png" alt="Ícone do Projeto" class="project-icon">
+                        <span>Projeto 1</span>
+                    </div>
+                    <div class="progress-container">
+                        <span class="position">1°</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 50%;">50%</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Outros grupos podem ser adicionados dinamicamente com a mesma estrutura acima -->
+            </div>
+        </section>
+    </main>
+</body>
+</html>

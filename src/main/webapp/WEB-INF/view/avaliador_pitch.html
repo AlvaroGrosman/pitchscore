@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliador do Projeto</title>
+    <link rel="stylesheet" href="./css/estilo_index.css"> <!-- Arquivo CSS principal para a barra superior -->
+    <link rel="stylesheet" href="./css/avaliador_projeto.css">
+</head>
+<body>
+    <!-- Barra superior -->
+    <header class="header">
+        <div class="user-info">
+            <img src="./imagens/index/foto_perfil.png" alt="Imagem do usuário" class="user-image">
+            <span>Olá, <strong>João Silva</strong></span>
+        </div>
+        <div class="header-title">
+            <h1>PitchScore</h1>
+        </div>
+        <div class="settings-icon">⚙️</div>
+    </header>
+
+    <main class="content">
+        <section class="form-card">
+        <h2>Avaliador do Pitch</h2>
+        <p>Distribua as notas por critérios</p>
+
+        <div class="criterios">
+            <div class="criterio-card">
+                <h3>Clareza</h3>
+                <p>O quanto a apresentação foi clara</p>
+                <p>Selecione uma nota de 0 a 5</p>
+                <div class="radio_botao">
+                <input type="radio" id="radio" name="clareza" value="0">
+                <label for="clareza">0</label>
+
+                <input type="radio" id="radio" name="clareza" value="1">
+                <label for="clareza">1</label>
+
+                <input type="radio" id="radio" name="clareza" value="2">
+                <label for="clareza">2</label>
+
+                <input type="radio" id="radio" name="clareza" value="3">
+                <label for="clareza">3</label>
+
+                <input type="radio" id="radio" name="clareza" value="4">
+                <label for="clareza">4</label>
+
+                <input type="radio" id="radio" name="clareza" value="5">
+                <label for="clareza">5</label>
+            </div>
+            </div>
+            <div class="criterio-card">
+                <h3>Dinamicidade</h3>
+                <p>O quanto a apresentação foi dinâmica</p>
+                <p>Selecione uma nota de 0 a 5</p>
+                <div class="radio_botao">
+                <input type="radio" id="radio" name="dinamicidade" value="0">
+                <label for="dinamicidade">0</label>
+
+                <input type="radio" id="radio" name="dinamicidade" value="1">
+                <label for="dinamicidade">1</label>
+
+                <input type="radio" id="radio" name="dinamicidade" value="2">
+                <label for="dinamicidade">2</label>
+
+                <input type="radio" id="radio" name="dinamicidade" value="3">
+                <label for="dinamicidade">3</label>
+
+                <input type="radio" id="radio" name="dinamicidade" value="4">
+                <label for="dinamicidade">4</label>
+
+                <input type="radio" id="radio" name="dinamicidade" value="5">
+                <label for="dinamicidade">5</label>
+            </div>
+            </div>
+            <div class="criterio-card">
+                <h3>Organização</h3>
+                <p>O quanto o grupo foi organizado na apresentação</p>
+                <p>Selecione uma nota de 0 a 5</p>
+                <div class="radio_botao">
+                <input type="radio" id="radio" name="organizacao" value="0">
+                <label for="organizacao">0</label>
+
+                <input type="radio" id="radio" name="organizacao" value="1">
+                <label for="organizacao">1</label>
+
+                <input type="radio" id="radio" name="organizacao" value="2">
+                <label for="organizacao">2</label>
+
+                <input type="radio" id="radio" name="organizacao" value="3">
+                <label for="organizacao">3</label>
+
+                <input type="radio" id="radio" name="organizacao" value="4">
+                <label for="organizacao">4</label>
+
+                <input type="radio" id="radio" name="organizacao" value="5">
+                <label for="organizacao">5</label>
+            </div>
+            </div>
+            <div class="criterio-card">
+                <h3>Tempo</h3>
+                <p>Tempo em minutos que o grupo concluiu o pitch</p>
+                <p>Digite uma nota de 0 a 5</p>
+                <input type="text" placeholder="00:00">
+            </div>
+        </div>
+
+        <a href="index.html"><button class="botao-avancar">Finalizar</button></a>
+    </section>
+
+        
+    </main>
+</body>
+</html>
